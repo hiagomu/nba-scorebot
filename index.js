@@ -26,7 +26,7 @@ const getEvents = async () => {
   if (response.status === 200) {
     const scoreboard = []
     const eventsNow = response.data.events.filter(event => event.status.type.name === 'STATUS_IN_PROGRESS' || event.status.type.name === 'STATUS_HALFTIME')
-    eventsNow.map(event => {
+    eventsNow.map((event, index) => {
       scoreboard.push(
         {
           team1: event.competitions[0].competitors[0].team.displayName,
@@ -43,14 +43,36 @@ const getEvents = async () => {
 
 const job = new CronJob("*/3 * * * *", async () => {
   const date = new Date()
+  const dateLocal = date.toLocaleString('pt-BR', {timeZone: "America/Sao_Paulo"})
   const response = await getEvents()
 
-  response.forEach(function(item, index) {
-    setTimeout(async function(){
-      await tweet(
-      `${item.team1} - ${item.score1}\n${item.team2} - ${item.score2}\n\n${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()} - ${date.getHours()}:${date.getMinutes()}`)
-    }, 5000 * (index + 1));
-  });
+  if (response.length >= 6) {
+    let formatedResponse = []
+
+    for (let i = 0; i < Math.ceil(response.length / 2); i++) {
+      const firstLine = `${response[i * 2].team1} - ${response[i * 2].score1}\n${response[i * 2].team2} - ${response[i * 2].score2}\n\n`
+      let secondLine = ''
+      if (response[i * 2 + 1]) {
+        secondLine = `${response[i * 2 + 1].team1} - ${response[i * 2 + 1].score1}\n${response[i * 2 + 1].team2} - ${response[i * 2 + 1].score2}\n\n`
+      }
+      
+      const formatedTweet = `${firstLine}${secondLine}`
+      formatedResponse.push(formatedTweet)
+    }
+
+    formatedResponse.forEach(function(item, index) {
+      setTimeout(async function(){
+        await tweet(`${item}${dateLocal}`)
+      }, 5000 * (index + 1));
+    });
+  }  else {  
+    response.forEach(function(item, index) {
+      setTimeout(async function(){
+        await tweet(
+        `${item.team1} - ${item.score1}\n${item.team2} - ${item.score2}\n\n${dateLocal}`)
+      }, 5000 * (index + 1));
+    });
+  }
 })
 
 job.start()
