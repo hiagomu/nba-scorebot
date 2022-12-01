@@ -1,8 +1,5 @@
-<p align="center">
-  <img width= '300' src="./public/logo-readme.png">
-</p>
 <h1 align="center">
-    <img width= 1000' src="./public/home-screen.png">
+    <img width= 800' src="./public/nba-bot.png">
 </h1>
 
 ## 📚 Sobre 
