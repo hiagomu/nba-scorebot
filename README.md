@@ -23,7 +23,7 @@ O projeto **NBA Scorebot** foi desenvolvido com intuito de tweetar os placares d
 
 ```bash
 # Clonar o repositório
-$ git clone https://github.com/hiagomu/nba-dashboard.git
+$ git clone https://github.com/hiagomu/nba-scorebot.git
 
 # Instalar as dependências
 $ npm install
