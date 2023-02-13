@@ -1,5 +1,5 @@
 <div align="center">
-    <img align="center" alt="Tweet image" src="./public/scorebot-logo.png">
+    <img align="center" alt="scorebot logo" src="./public/scorebot-logo.png">
 </div>
 
 [![Follow on Twitter](https://img.shields.io/twitter/follow/nbagamesbot?style=social)](https://twitter.com/nbagamesbot)
@@ -10,9 +10,9 @@ O projeto **NBA Scorebot** foi desenvolvido com intuito de tweetar os placares d
                     
 Os formatos de tweets para alertar placar e resultado das partidas:
                     
-<h1 align="center">
-    <img width="450" src="./public/tweet-models.png">
-</h1>
+<div align="center">
+    <img align="center" alt="tweet models" src="./public/tweet-models.png">
+</div>
 
 ## 🚀 Tecnologias utilizadas
 
