@@ -11,7 +11,8 @@ O projeto **NBA Scorebot** foi desenvolvido com intuito de tweetar os placares d
 Os formatos de tweets para alertar placar e resultado das partidas:
                     
 <div align="center">
-    <img align="center" alt="tweet models" src="./public/tweet-models.png">
+    <img align="center" alt="tweet models gamewin" src="./public/gamewin.png">
+    <img align="center" alt="tweet models game" src="./public/game.png">
 </div>
 
 ## 🚀 Tecnologias utilizadas
