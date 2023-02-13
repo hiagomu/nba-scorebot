@@ -2,12 +2,8 @@
 
 [![Follow on Twitter](https://img.shields.io/twitter/follow/nbagamesbot?style=social)](https://twitter.com/nbagamesbot)
 
-<h1 align="center">
-    <img width= 800' src="./public/nba-bot.png">
-</h1>
-
 <h2 align="center">
-    <img width= 1000' src="./public/scorebot-logo.png">
+    <img width= 300' src="./public/scorebot-logo.png">
 </h2>
 
 ## 📚 Sobre 
