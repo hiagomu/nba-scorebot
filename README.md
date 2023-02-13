@@ -14,6 +14,8 @@ Os formatos de tweets para alertar placar e resultado das partidas:
     <img width="450" src="./public/tweet-models.png">
 </h1>
 
+---
+
 ## 🚀 Tecnologias utilizadas
 
 - NodeJS
