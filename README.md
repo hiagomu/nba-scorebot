@@ -1,5 +1,5 @@
 # NBA Scorebot
-![Twitter Follow](https://img.shields.io/twitter/follow/nbagamesbot?label=nbagamesbot&style=social)
+[![Follow on Twitter](https://img.shields.io/twitter/follow/nbagamesbot?label=Follow&style=social)](https://twitter.com/nbagamesbot)
 
 <h1 align="center">
     <img width= 800' src="./public/nba-bot.png">
