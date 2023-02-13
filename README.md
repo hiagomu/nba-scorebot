@@ -1,8 +1,6 @@
 <h1 align="center">
     <img width="300" src="./public/scorebot-logo.png">
 </h1>
-                    
----
 
 [![Follow on Twitter](https://img.shields.io/twitter/follow/nbagamesbot?style=social)](https://twitter.com/nbagamesbot)
                     
@@ -11,8 +9,6 @@
 O projeto **NBA Scorebot** foi desenvolvido com intuito de tweetar os placares de jogos da NBA em tempo real, e também tem uma funcionalidade que mostra os resultados da partida logo quando finalizada. Futuramente contará com mais funcionalidades que não se limitaram apenas a partidas, também a estatítica dos jogadores, partidas e recordes históricos.
                     
 Os formatos de tweets para alertar placar e resultado das partidas:
-
----
                     
 <h1 align="center">
     <img width="450" src="./public/tweet-models.png">
