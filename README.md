@@ -13,8 +13,6 @@ Os formatos de tweets para alertar placar e resultado das partidas:
     <img align="center" alt="tweet models game" src="./public/game.png">
 </div>
 
-[![Follow on Twitter](https://img.shields.io/twitter/follow/nbagamesbot?style=social)](https://twitter.com/nbagamesbot)
-
 ## 🚀 Tecnologias utilizadas
 
 - NodeJS
@@ -42,4 +40,4 @@ $ npm start
 
 ```
 ---
-Desenvolvido por Hiago Murilo
+Desenvolvido por Hiago Murilo [![Follow on Twitter](https://img.shields.io/twitter/follow/nbagamesbot?style=social)](https://twitter.com/nbagamesbot)
