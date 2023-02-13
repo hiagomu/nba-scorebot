@@ -1,8 +1,6 @@
 <div align="center">
     <img align="center" alt="scorebot logo" src="./public/scorebot-logo.png">
 </div>
-
-[![Follow on Twitter](https://img.shields.io/twitter/follow/nbagamesbot?style=social)](https://twitter.com/nbagamesbot)
                     
 ## 📚 Sobre 
 
@@ -14,6 +12,8 @@ Os formatos de tweets para alertar placar e resultado das partidas:
     <img align="center" alt="tweet models gamewin" src="./public/gamewin.png">
     <img align="center" alt="tweet models game" src="./public/game.png">
 </div>
+
+[![Follow on Twitter](https://img.shields.io/twitter/follow/nbagamesbot?style=social)](https://twitter.com/nbagamesbot)
 
 ## 🚀 Tecnologias utilizadas
 
