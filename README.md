@@ -40,4 +40,5 @@ $ npm start
 
 ```
 ---
-Desenvolvido por Hiago Murilo [![Follow on Twitter](https://img.shields.io/twitter/follow/nbagamesbot?style=social)](https://twitter.com/nbagamesbot)
+Desenvolvido por Hiago Murilo
+[![Follow on Twitter](https://img.shields.io/twitter/follow/nbagamesbot?style=social)](https://twitter.com/nbagamesbot)
