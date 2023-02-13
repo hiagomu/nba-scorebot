@@ -1,4 +1,5 @@
 <h1 align="center">Bem vindo ao NBA Scorebot 👋</h1>
+
 [![Follow on Twitter](https://img.shields.io/twitter/follow/nbagamesbot?style=social)](https://twitter.com/nbagamesbot)
 
 <h1 align="center">
