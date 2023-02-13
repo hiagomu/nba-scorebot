@@ -28,7 +28,7 @@ Os formatos de tweets para alertar placar e resultado das partidas:
 
 ## ⏱ Iniciar projeto 
 
-- Primeiramente, você precisa gerar as chaves necessárias para autenticar o acesso a API do Twitter, [aqui](https://twitter.com/i/flow/signup).
+- Primeiramente, você precisa gerar as chaves necessárias para autenticar o acesso a API do Twitter, [aqui](https://developer.twitter.com/en/portal/dashboard).
 
 - Clone o respositório e instale as dependências com os seguintes comandos:
 ```bash
@@ -39,7 +39,10 @@ $ git clone https://github.com/hiagomu/nba-scorebot.git
 $ npm install
 
 ```
-- Acesse o arquivo twitterClient.js, este arquivo é que faz a autenticação.
+- Acesse o arquivo twitterClient.js.
+<div align="center">
+    <img align="center" alt="scorebot logo" src="./public/twitterconfig.png">
+</div>
 - Altere as chaves para as que você gerou e adicione aos campos.
 - Por fim, inicie o bot com o seguinte comando:
 ```bash
