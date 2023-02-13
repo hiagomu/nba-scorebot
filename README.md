@@ -1,6 +1,6 @@
-<h1 align="center">
-    <img width="300" src="./public/scorebot-logo.png">
-</h1>
+<div align="center">
+    <img align="center" alt="Tweet image" src="./public/scorebot-logo.png">
+</div>
 
 [![Follow on Twitter](https://img.shields.io/twitter/follow/nbagamesbot?style=social)](https://twitter.com/nbagamesbot)
                     
@@ -14,14 +14,10 @@ Os formatos de tweets para alertar placar e resultado das partidas:
     <img width="450" src="./public/tweet-models.png">
 </h1>
 
----
-
 ## 🚀 Tecnologias utilizadas
 
 - NodeJS
 - Twitter API v2
-
----
 
 ## ⏱ Iniciar projeto 
 
