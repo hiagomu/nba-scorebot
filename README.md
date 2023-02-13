@@ -20,6 +20,14 @@ Os formatos de tweets para alertar placar e resultado das partidas:
 - NodeJS
 - Twitter API v2
 
+## 📋 Pré-requisitos
+
+- **Node.js**: Você precisa do Node.js instalado para rodar o bot. Você pode baixar [aqui](https://nodejs.org/en/download).
+
+- **Twitter**: Você precisa ter uma conta no twitter. Você pode criar uma [aqui](https://twitter.com/i/flow/signup).
+
+- **Twitter developer**: Faça login na sua conta e aplique para obter uma conta de desenvolvedor. Você pode aplicar [aqui](https://developer.twitter.com/en/apply-for-access).
+
 ## ⏱ Iniciar projeto 
 
 ```bash
