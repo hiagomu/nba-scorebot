@@ -43,14 +43,14 @@ $ npm install
 <div align="center">
     <img align="center" alt="scorebot logo" src="./public/twitterconfig.png">
 </div>
-- Altere as chaves para as que você gerou e adicione aos campos.
+
+- Altere as chaves para as que você gerou e adicione aos campos. Obs.: Se for deixar o código em um repositório público, considere utilizar váriaveis de ambiente para o .gitignore não envia-lás.
+
 - Por fim, inicie o bot com o seguinte comando:
 ```bash
 # Iniciar o servidor
 $ npm start
 
 ```
-
-Obs.: Se for deixar o código em um repositório público, considere utilizar váriaveis de ambiente para o .gitignore não envia-lás.
 ---
 [![Follow on Twitter](https://img.shields.io/twitter/follow/nbagamesbot?style=social)](https://twitter.com/nbagamesbot)
